@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import {
-  Text
-} from 'react-native';
+	Text
+} from "react-native";
 
 const Detail = () => {
-  return (
-    <>
-      <Text>Detail Page</Text>
-    </>
-  )
-}
+	return (
+		<>
+			<Text>Detail Page</Text>
+		</>
+	);
+};
 
 export default Detail;
