@@ -4,21 +4,21 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		{
-			"autoFix": true,
-			"language": "typescript"
-		},
-		{
-			"autoFix":true,
-			"language": "typescriptreact"
-		}
+    "javascript",
+    "javascriptreact",
+    {
+      "autoFix": true,
+      "language": "typescript"
+    },
+    {
+      "autoFix": true,
+      "language": "typescriptreact"
+    }
   ],
   "eslint.alwaysShowStatus": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.codeActionsOnSave": {
-		"source.fixAll.eslint" :true
+    "source.fixAll.eslint": true
   }
 }

@@ -7,7 +7,7 @@ module.exports = {
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
-		"prettier"
+		"prettier",
 	],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
@@ -25,6 +25,8 @@ module.exports = {
 		semi: [ "error", "always" ],
 		"array-bracket-spacing": [ "error", "always" ],
 		"object-curly-spacing": [ "error", "always" ],
-		"@typescript-eslint/ban-ts-comment": "off"
+		"@typescript-eslint/ban-ts-comment": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/explicit-function-return-type": "off"
 	},
 };
